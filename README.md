@@ -1,16 +1,18 @@
 # Contact List Application
 
+ **Live Demo:** [https://contact-list-gnr6c4555-ayush-aggarwals-projects-f44e6e88.vercel.app](https://contact-list-gnr6c4555-ayush-aggarwals-projects-f44e6e88.vercel.app)
+
 A modern, fully responsive Contact List web application built with React, using Context API and useReducer for state management, styled with Tailwind CSS.
 
 ## Features
 
-- ✅ **View Contacts**: Display all contacts in a clean, card-based layout
-- 🔍 **Search Contacts**: Real-time search filtering by name (case-insensitive)
-- ➕ **Add Contact**: Add new contacts via a modal form
-- ✏️ **Edit Contact**: Edit existing contacts with pre-filled form data
-- 🗑️ **Delete Contact**: Remove contacts from the list
-- 📱 **Fully Responsive**: Works seamlessly on mobile and desktop devices
-- 🎨 **Modern UI**: Clean, light-themed design with Tailwind CSS
+-  **View Contacts**: Display all contacts in a clean, card-based layout
+-  **Search Contacts**: Real-time search filtering by name (case-insensitive)
+-  **Add Contact**: Add new contacts via a modal form
+-  **Edit Contact**: Edit existing contacts with pre-filled form data
+-  **Delete Contact**: Remove contacts from the list
+-  **Fully Responsive**: Works seamlessly on mobile and desktop devices
+-  **Modern UI**: Clean, light-themed design with Tailwind CSS
 
 ## Tech Stack
 
@@ -23,24 +25,24 @@ A modern, fully responsive Contact List web application built with React, using 
 
 ```
 tria_assignment/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── SearchBar.jsx
-│   │   ├── ContactList.jsx
-│   │   ├── ContactItem.jsx
-│   │   ├── ContactModal.jsx
-│   │   └── ContactForm.jsx
-│   ├── context/
-│   │   └── ContactContext.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── index.html
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-└── postcss.config.js
+ src/
+    components/
+       Header.jsx
+       SearchBar.jsx
+       ContactList.jsx
+       ContactItem.jsx
+       ContactModal.jsx
+       ContactForm.jsx
+    context/
+       ContactContext.jsx
+    App.jsx
+    main.jsx
+    index.css
+ index.html
+ package.json
+ vite.config.js
+ tailwind.config.js
+ postcss.config.js
 ```
 
 ## Installation & Setup
@@ -90,13 +92,13 @@ The application uses a centralized state management approach with:
 
 ### Actions
 
-- `SET_SEARCH_TERM` - Update search filter
-- `OPEN_MODAL` - Open modal (add or edit mode)
-- `CLOSE_MODAL` - Close modal and reset form
-- `UPDATE_FORM_INPUT` - Update form field values
-- `ADD_CONTACT` - Add new contact
-- `DELETE_CONTACT` - Remove contact
-- `UPDATE_CONTACT` - Update existing contact
+- SET_SEARCH_TERM - Update search filter
+- OPEN_MODAL - Open modal (add or edit mode)
+- CLOSE_MODAL - Close modal and reset form
+- UPDATE_FORM_INPUT - Update form field values
+- ADD_CONTACT - Add new contact
+- DELETE_CONTACT - Remove contact
+- UPDATE_CONTACT - Update existing contact
 
 ## Design Principles
 
@@ -105,6 +107,10 @@ The application uses a centralized state management approach with:
 - **Component separation**: Clear separation of concerns
 - **Accessibility**: Semantic HTML and proper labels
 - **Responsive design**: Mobile-first approach
+
+## Deployment
+
+This application is deployed on Vercel and automatically updates with each push to the main branch.
 
 ## License
 
